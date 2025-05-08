@@ -21,13 +21,13 @@ Automated UI tests using Cypress with Page Object Model.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/ways92/automation-cy.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd automation-cy
 ```
 
 Install dependencies
