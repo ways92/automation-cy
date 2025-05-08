@@ -1,10 +1,10 @@
 import SignUpPage from "../pages/signUpPage"
 
-describe('Register', () => {
-  it('Ensure can user register as mentee', () => {
+describe('Sign Up', () => {
+  it('Ensure user can sign up as mentee', () => {
     const email = `${Date.now()}tesakun@gmail.com`;
 
-    RegisterPage.visitHome()
+    SignUpPage.visitHome()
       .goToMentoringPage()
       .clickNavbarRegister()
       .signUpAsMentee()

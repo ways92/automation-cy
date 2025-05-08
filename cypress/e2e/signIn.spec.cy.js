@@ -1,6 +1,6 @@
 import SignInPage from "../pages/signInPage";
 
-describe( 'template spec', () => {
+describe( 'Sign In', () => {
 
   it('Ensure user sign in as mentee', () => {
     SignInPage.visitHome()

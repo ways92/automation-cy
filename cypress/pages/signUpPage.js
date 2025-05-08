@@ -27,7 +27,7 @@ class SignUpPage {
   }
 
   clickNext() {
-    cy.get('.order-1').clear().click();
+    cy.get('.order-1').click();
     return this;
   }
 
@@ -91,7 +91,7 @@ class SignUpPage {
 
   addSpecialization() {
     cy.get('.ant-spin-container > div.flex > .ant-btn > span').click();
-    cy.get('#rc_select_17').click();
+    cy.get('.ant-select-selection-search').click();
     cy.get('.ant-select-item-option-active > .ant-select-item-option-content').click();
     cy.get('.ant-select-selection-item').click();
     cy.contains('.ant-select-item-option-content', 'IT & Engineering').click();
